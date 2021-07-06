@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Buddy | Your Friend Who Helps You Save Money</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.0/chart.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <h1>Budget Buddy</h1>
+
+  <div id="container">
+    <div id="chart">
+      <canvas id="doughnut-chart"></canvas>
+    </div>
+
+    <div class="expenses">
+      <h2>Expenses</h2>
+   </div>
+
+    <div class="budget">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>07/05/2021</td>
+            <td>AMC Movie Ticket</td>
+            <td>$25.00</td>
+            <td> 
+              <p class="chart chart-indicator-entertainment">Entertainment</p>
+              </td>
+          </tr>
+          <tr>
+            <td>07/05/2021</td>
+            <td>Phone Bill</td>
+            <td>$150.00</td>
+            <td> 
+              <p class="chart chart-indicator-bill">Bill</p>
+              </td>
+          </tr>
+          <tr>
+            <td>07/05/2021</td>
+            <td>Savings Transfer</td>
+            <td>$50.00</td>
+            <td> 
+              <p class="chart chart-indicator-savings">Savings</p>
+              </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  </body>
+</html>

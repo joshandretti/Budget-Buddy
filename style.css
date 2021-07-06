@@ -1,0 +1,98 @@
+@font-face {
+  src: url(fonts/Akira\ Expanded\ Demo.otf);
+  font-family: 'Akira';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background:#222;
+    font-family: Akira, sans-serif;
+  }
+
+h1 {
+    font-size: 40px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+
+h2 {
+    font-size: 20px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 120px;
+    text-align: center;
+  }
+
+.expenses {
+  color: white;
+}
+
+#container {
+    display: flex;
+}
+
+#chart {
+  width: 500px;
+  margin: 35px;
+}
+
+.budget{
+  color: white;
+  height: 40vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+thead {
+  box-shadow: 0 5px 10px 0;
+}
+
+th {
+  padding: 1rem 6rem;
+  letter-spacing: 1.0rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+td {
+  padding: 1rem 5rem;
+}
+
+.chart {
+  border-radius: 0.23em;
+  background-color: red;
+  padding: 0.2rem 1rem;
+  text-align; center;
+
+  &-entertainment {
+    background-color: #fff0c2;
+    color: #a68b00;
+  }
+
+  &-bills {
+    background-color: #fff0c2;
+    color: #a68b00;
+  }
+
+  &-savings {
+    background-color: #fff0c2;
+    color: #a68b00;
+  }
+
+}
