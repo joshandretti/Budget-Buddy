@@ -2,11 +2,11 @@
 new Chart(document.getElementById("doughnut-chart"), {
   type: 'doughnut',
   data: {
-    labels: ["Bills", "Entertainment", "Savings"],
+    labels: ["Bills", "Misc.", "Savings"],
     datasets: [
       {
         label: "Budget Buddy",
-        backgroundColor: ["#820d0b","#093286", "#dfb10f"],
+        backgroundColor: ["#cc0033","#3496db", "#f1c40f"],
         data: [50,30,20]
       }
     ]

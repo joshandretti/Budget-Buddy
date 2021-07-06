@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+thead {
+  box-shadow: 0 5px 10px 0;
+}
+
+th {
+  padding: ;
+  letter-spacing: 1.0rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+td {
+  padding: ;
+}
+
+ <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>07/05/2021</td>
+            <td>AMC Movie Ticket</td>
+            <td>$30.00</td>
+            <td>Entertainment</td>
+          </tr>
+          <tr>
+            <td>07/05/2021</td>
+            <td>Phone Bill</td>
+            <td>$50.00</td>
+            <td>Bill</td>
+          </tr>
+          <tr>
+            <td>07/05/2021</td>
+            <td>Savings Transfer</td>
+            <td>$20.00</td>
+            <td>Savings</td>
+          </tr>
+        </tbody>
+      </table>
